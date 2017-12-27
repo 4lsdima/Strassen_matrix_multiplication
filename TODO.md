@@ -12,5 +12,5 @@ _or just for gauss elimination:_
 - **chmod +x build_GAUSS.sh**
 - **chmod +x testGauss_.sh**
 - **./build_GAUSS.sh**
- _yields: binary:**Gauss_**_
+  # _yields binary: **Gauss**_
 - **./testGauss_.sh**
