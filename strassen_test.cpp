@@ -129,8 +129,8 @@ void speed_test_double()
     cout<< " Speed test for Strassen parallel:             "<< ms_Sp<<" ms,  "<< tics_Sp<<" tics\n";
     cout<< " Speed test for straightforward_dot:           "<< ms_mul<<" ms,  "<< tics_mul<<" tics\n";
 
-	matrix2File(Sp,"S_p_d.txt");
-    matrix2File(S_mul,"S_mul_d.txt");
+	// matrix2File(Sp,"S_p_d.txt");
+    // matrix2File(S_mul,"S_mul_d.txt");
 
 	cout<< "PROVERKA:\n";
 

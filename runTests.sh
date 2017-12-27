@@ -1,4 +1,10 @@
 #!/bin/bash
+
+rm -f "A.dat"
+rm -f "B.dat"
+rm -f "A1.dat"
+rm -f "B1.dat"
+
 log1="log_simple.txt"
 log2="log_gauss.txt"
 log3="log_strassen.txt"
