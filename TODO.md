@@ -6,4 +6,11 @@
  _yields: binaries for test:**Simple, Gauss, Strassen**_
 - **./runTests.sh**
 
+-#######################-
 
+_or just for gauss elimination:_
+- **chmod +x build_GAUSS.sh**
+- **chmod +x testGauss_.sh**
+- **./build_GAUSS.sh**
+ _yields: binary:**Gauss_**_
+- **./testGauss_.sh**
