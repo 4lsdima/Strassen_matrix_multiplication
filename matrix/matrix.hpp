@@ -261,7 +261,7 @@ public:
 	    }
 	    else if(this->floatType())
 	    {
-		    const double eps(1.0E-14);
+		    const double eps(1.0E-10);
    			for(ty i=0; i<this->arr.size();++i)
 			{
 				if(std::abs(static_cast<double>(this->arr[i])-static_cast<double>(another.getVec()[i])) > eps)
