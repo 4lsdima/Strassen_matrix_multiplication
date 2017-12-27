@@ -858,7 +858,7 @@ public:
 	{
 		if(std::max(i.r,i.c)<2500)
 		{
-			return mul_kij(i,j);	
+			return mul_kji(i,j);	
 		}
 		else{return mul_ijk(i,j);}//experiment has shown, that it's faster at larger sizes ~3000
 	}
